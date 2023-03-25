@@ -74,6 +74,8 @@ body
 
 .option
 {
+    text-decoration: none;
+    color: white;
     float: left;
     min-width: 50px;
     height: 20px;
@@ -85,6 +87,7 @@ body
 
 .option:hover
 {
+    color: white;
     background-color:black;
     cursor: pointer;
 }
