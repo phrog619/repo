@@ -131,3 +131,9 @@ body
    font-weight: 700;
    letter-spacing: 1px; 
 }
+
+#quiz
+{
+    font-size: 26px;
+    color: black;
+}
