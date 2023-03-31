@@ -1,7 +1,9 @@
 body
 {
-    font-family: 'Roboto', sans-serif;
-    background-color: gray; 
+    background-color: #303030;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 #container
@@ -9,125 +11,172 @@ body
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+
+}
+
+.rectangle
+{
+    width: 960px;
+    margin: 20px;
+    text-align: center;
+}
+
+.square
+{
+    width: 50%;
+    float: left;
 }
 
 #logo
 {
-   color: whitesmoke;
-   margin-top: 20px;
-   font-size: 44px;
-   letter-spacing: 1px;
-   font-weight: 700; 
-}
-
-#menu
-{
-    background-color:rgb(80, 88, 96);
-    margin-top: 20px;
-    color: #ffffff;
-    padding: 10px;
-
-}
-
-#topbar
-{
-   background-color: #128870;
-   color: white;
-   padding: 10px;
-   margin-top: 20px;
-   margin-bottom: 25px;
-   height: 170px; 
-}
-
-#sidebar
-{
-    float:left;
-    width: 148px;
-    height: 620px;
-    padding: 20px;
-    background-color: lightgrey;
-    text-align: center;
-    font-size: 18px;
-    border-right: 2px dotted gray;
-}
-
-#content
-{
-    float:left;
-    padding: 40px;
-    width: 730px;
-    background-color: #dedede;
-    min-height: 580px;
-    text-align: justify;
-}
-
-
-#footer
-{
-    clear:both;
-    color:white;
-    padding: 20px;
-    text-align: center; 
-    border-top: 2px dotted gray;
-    font-size: 18px;
-}
-
-.option
-{
-    text-decoration: none;
-    color: white;
     float: left;
-    min-width: 50px;
-    height: 20px;
-    font-size: 18px;
-    padding: 10px;
-    border-right: 2px dotted #444444;
-    opacity: 0.8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-.option:hover
+#zegar
 {
-    color: white;
-    background-color:black;
-    cursor: pointer;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
-#topbarL 
+.tile1
 {
-    float:left;
-    padding: 20px;
-    width: 138px;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: rgb(38, 131, 162);
+    float: left;
     text-align: center;
-    border-right: 2px dotted #444444;
 }
 
-#topbarR
+.tile1:hover
 {
-    float:left;
-    padding: 20px;
-    width: 760px;
-    font-size: 16px;
-    text-align: justify;
+    background-color: rgb(28, 121, 152)
 }
 
-.optionl
+.tile2
 {
-    font-size: 18px;
-    height: 25px;
-    padding: 10px;
-    border-bottom: 2px dotted #444444;
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #666666;
+    float: left;
+    text-align: center;
 }
 
-.optionl:hover
+.tile2:hover
 {
-    color: white;
+    background-color: #555555
+}
+.tile3
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #90ee90;
+    float: left;
+    text-align: center;
+}
+.tile3:hover
+{
+    background-color: #80dd80
+}
+.tile4
+{
+    margin: 10px;
+    height: 82px;
+    width: 420px;
     background-color: orangered;
-    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    padding: 30px;
 }
 
-.titles
+.tile5
 {
-   font-size: 36px;
-   font-weight: 700;
-   letter-spacing: 1px; 
+    margin: 10px;
+    height: 274px;
+    width: 450px;
+    background-color: #666666;
+    float: left;
+    font-size: 24px;
+    text-align: justify;
+    padding: 15px;
+}
+
+.yt
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color:	#FF0000;
+    float: left;
+}
+.yt:hover
+{
+    background-color: #ee0000
+}
+.fb
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #3b5998;
+    float: left;
+}
+.fb:hover
+{
+    background-color: #2a4887
+}
+.li
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color:#0E76A8;
+    float: left;
+}
+.li:hover
+{
+    background-color: #0D65A7
+}
+.tw
+{
+    margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color:#00ACEE;
+    float: left;
+}
+.tw:hover
+{
+    background-color: #00ABDD
+}
+
+:link
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px; 
+}
+
+:visited
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px; 
 }
